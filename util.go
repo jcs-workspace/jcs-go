@@ -13,6 +13,6 @@ package util
 // @param a : A value.
 // @param b : B value.
 // @return Data pointer.
-func add(a *int, b *int) *int {
-	return a + b;
+func add(a int, b int) int {
+	return a + b
 }
